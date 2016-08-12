@@ -7,14 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		530CBBE31CE1CD9A00353E32 /* bite.wav in Resources */ = {isa = PBXBuildFile; fileRef = 530CBBDE1CE1CD9A00353E32 /* bite.wav */; };
+		530CBBE41CE1CD9A00353E32 /* cave-music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 530CBBDF1CE1CD9A00353E32 /* cave-music.mp3 */; };
+		530CBBE51CE1CD9A00353E32 /* death.wav in Resources */ = {isa = PBXBuildFile; fileRef = 530CBBE01CE1CD9A00353E32 /* death.wav */; };
+		530CBBE61CE1CD9A00353E32 /* heart.wav in Resources */ = {isa = PBXBuildFile; fileRef = 530CBBE11CE1CD9A00353E32 /* heart.wav */; };
+		530CBBE71CE1CD9A00353E32 /* skull.wav in Resources */ = {isa = PBXBuildFile; fileRef = 530CBBE21CE1CD9A00353E32 /* skull.wav */; };
 		5363C68C1CE11FDD00F5848C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5363C68B1CE11FDD00F5848C /* AppDelegate.swift */; };
 		5363C68E1CE11FDD00F5848C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5363C68D1CE11FDD00F5848C /* ViewController.swift */; };
 		5363C6911CE11FDD00F5848C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5363C68F1CE11FDD00F5848C /* Main.storyboard */; };
 		5363C6931CE11FDD00F5848C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5363C6921CE11FDD00F5848C /* Assets.xcassets */; };
 		5363C6961CE11FDD00F5848C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5363C6941CE11FDD00F5848C /* LaunchScreen.storyboard */; };
+		5363C69E1CE17EB100F5848C /* DragImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5363C69D1CE17EB100F5848C /* DragImage.swift */; };
+		5363C6A01CE18FD700F5848C /* MonsterImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5363C69F1CE18FD700F5848C /* MonsterImage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		530CBBDE1CE1CD9A00353E32 /* bite.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bite.wav; sourceTree = "<group>"; };
+		530CBBDF1CE1CD9A00353E32 /* cave-music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "cave-music.mp3"; sourceTree = "<group>"; };
+		530CBBE01CE1CD9A00353E32 /* death.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = death.wav; sourceTree = "<group>"; };
+		530CBBE11CE1CD9A00353E32 /* heart.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = heart.wav; sourceTree = "<group>"; };
+		530CBBE21CE1CD9A00353E32 /* skull.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = skull.wav; sourceTree = "<group>"; };
 		5363C6881CE11FDD00F5848C /* gigapet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = gigapet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5363C68B1CE11FDD00F5848C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5363C68D1CE11FDD00F5848C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +34,8 @@
 		5363C6921CE11FDD00F5848C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5363C6951CE11FDD00F5848C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5363C6971CE11FDD00F5848C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5363C69D1CE17EB100F5848C /* DragImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragImage.swift; sourceTree = "<group>"; };
+		5363C69F1CE18FD700F5848C /* MonsterImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MonsterImage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +49,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		530CBBDD1CE1CD7900353E32 /* Sound */ = {
+			isa = PBXGroup;
+			children = (
+				530CBBDE1CE1CD9A00353E32 /* bite.wav */,
+				530CBBDF1CE1CD9A00353E32 /* cave-music.mp3 */,
+				530CBBE01CE1CD9A00353E32 /* death.wav */,
+				530CBBE11CE1CD9A00353E32 /* heart.wav */,
+				530CBBE21CE1CD9A00353E32 /* skull.wav */,
+			);
+			name = Sound;
+			sourceTree = "<group>";
+		};
 		5363C67F1CE11FDD00F5848C = {
 			isa = PBXGroup;
 			children = (
@@ -54,12 +80,15 @@
 		5363C68A1CE11FDD00F5848C /* gigapet */ = {
 			isa = PBXGroup;
 			children = (
+				530CBBDD1CE1CD7900353E32 /* Sound */,
 				5363C68B1CE11FDD00F5848C /* AppDelegate.swift */,
 				5363C68D1CE11FDD00F5848C /* ViewController.swift */,
 				5363C68F1CE11FDD00F5848C /* Main.storyboard */,
 				5363C6921CE11FDD00F5848C /* Assets.xcassets */,
 				5363C6941CE11FDD00F5848C /* LaunchScreen.storyboard */,
 				5363C6971CE11FDD00F5848C /* Info.plist */,
+				5363C69D1CE17EB100F5848C /* DragImage.swift */,
+				5363C69F1CE18FD700F5848C /* MonsterImage.swift */,
 			);
 			path = gigapet;
 			sourceTree = "<group>";
@@ -123,6 +152,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				530CBBE71CE1CD9A00353E32 /* skull.wav in Resources */,
+				530CBBE31CE1CD9A00353E32 /* bite.wav in Resources */,
+				530CBBE51CE1CD9A00353E32 /* death.wav in Resources */,
+				530CBBE61CE1CD9A00353E32 /* heart.wav in Resources */,
+				530CBBE41CE1CD9A00353E32 /* cave-music.mp3 in Resources */,
 				5363C6961CE11FDD00F5848C /* LaunchScreen.storyboard in Resources */,
 				5363C6931CE11FDD00F5848C /* Assets.xcassets in Resources */,
 				5363C6911CE11FDD00F5848C /* Main.storyboard in Resources */,
@@ -136,7 +170,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5363C6A01CE18FD700F5848C /* MonsterImage.swift in Sources */,
 				5363C68E1CE11FDD00F5848C /* ViewController.swift in Sources */,
+				5363C69E1CE17EB100F5848C /* DragImage.swift in Sources */,
 				5363C68C1CE11FDD00F5848C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -289,6 +325,7 @@
 				5363C69C1CE11FDD00F5848C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
